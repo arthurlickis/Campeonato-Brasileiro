@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Campeonato Brasileiro Série A - 2023</title>
+</head>
+    <body>
+        <header>    <!--Menu-->
+            <div class="menu">
+                <ul class="menu-hz">
+                    <img class="logo-menu-hz" src="img/logo.png" alt="logo">
+                    <li><a href="index.html" style="font-weight: bold;">Ínicio</a></li>
+                    <li><a href="campeoes.html">Campeões</a></li>
+                    <li><a href="times.html">Times</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="article-container"> <!--Contéudo do Site-->
+                <button class="btn-acd"><i class="fa-solid fa-wheelchair-move"></i>ﾠAcessibilidade</button> <!--Botão Acessibilidade-->
+                <div class="caixa-opcoes">
+                  <button class="opcao-fonte"><span class="material-symbols-outlined" style="font-size: 16px;">text_fields</span>ﾠAlterar Fonte</button><br>
+                  <button class="fechar"><span class="material-symbols-outlined" style="font-size: 16px;">close</span>ﾠFechar</button>
+                </div>
+                
+                    <section class="conteudo-1"> <!--contéudo história do campoenato-->
+                        <h1 class="title">História do Campeonato Brasileiro</h1>
+                        <div class="container">
+                            <div class="historia-camp">
+                                <p class="texto" style="margin-top: 4rem;">O Campeonato Brasileiro Série A é a principal competição de futebol profissional do Brasil, disputada desde 1959. 
+                                    A partir de 1971, o torneio passou a ser organizado pela Confederação Brasileira de Futebol (CBF) e adotou o formato de pontos 
+                                    corridos, com a disputa de um turno único entre as equipes. A partir de 2003, o Campeonato Brasileiro Série A adotou o modelo 
+                                    de pontos corridos com turno e returno, que é mantido até hoje. A competição é disputada por 20 clubes e o time que acumula o 
+                                    maior número de pontos ao final das 38 rodadas é declarado campeão brasileiro. Os quatro últimos colocados são rebaixados para 
+                                    a Série B.</p>
+                                    <p class="texto">O Campeonato Brasileiro Série A também é conhecido por ser uma das competições mais disputadas e equilibradas do 
+                                    mundo, com muitas reviravoltas e surpresas ao longo da temporada. Alguns dos maiores craques do futebol mundial, como Pelé, 
+                                    Zico, Ronaldo, Romário, Ronaldinho Gaúcho e Neymar, já disputaram a competição e deixaram suas marcas na história do torneio.
+                                    O Campeonato Brasileiro é uma das ligas mais fortes do mundo, sendo a liga mais valiosa do continente americano e a sétima 
+                                    do mundo, contando entre seus integrantes habituais com a participação do maior número de clubes detentores de títulos 
+                                    de "campeões mundiais", com onze campeonatos ganhos por sete clubes, o segundo em termos de quantidade de títulos da Copa 
+                                    Libertadores da América, com vinte títulos conquistados por dez clubes e ainda outros três finalistas, atrás em títulos apenas 
+                                    da Primera División Argentina, com 25 títulos conquistados por oito clubes e mais dois clubes finalistas.</p>
+                                    <p class="texto">Nos últimos anos, o Brasileirão vem sendo também classificado como um dos campeonatos nacionais mais valiosos do mundo. Por conta disso, a Série A 
+                                    do Campeonato Brasileiro é reconhecida como uma das ligas nacionais mais equilibradas do mundo. De acordo com o ranking da 
+                                    Federação Internacional de História e Estatísticas do Futebol (IFFHS, na sua sigla em inglês), é um dos cinco campeonatos mais 
+                                    fortes do mundo — no relatório de 2020, esteve somente atrás da Premier League inglesa. É ainda o torneio de futebol mais visto 
+                                    no continente americano e um dos mais expostos internacionalmente, transmitido para mais de 150 países.</p>
+                            </div>
+                                <div class="historia-camp2"> 
+                                    <img class="imagem-historia" src="img/historia.png" alt="Foto antiga do Campeonato Brasileiro Série A">
+                                    <p class="texto-his" style="margin-bottom: 4rem;margin-left: 7rem;">Ao longo dos anos, diversos clubes conquistaram o título brasileiro, com destaque para o Santos, que venceu as
+                                        primeiras três edições da competição, em 1959, 1961 e 1962, e o Palmeiras, que é o maior vencedor do torneio, com onze 
+                                        títulos. Outros clubes que se destacaram na história do Campeonato Brasileiro Série A incluem Flamengo, Corinthians, 
+                                        São Paulo, Cruzeiro, Vasco da Gama e Internacional.</p>
+                                </div>
+                            </div>
+
+                    <p style="border-bottom: 1px solid #252525; margin-top: 4rem;" ></p> <!--Gambiarra para por linha para seprar os tópicos-->
+                    
+                    <div class="regras-camp"> <!--contéudo regras do campoenato-->
+                        <h2 class="title">Como Funciona o Campeonato</h2>
+                            <div class="conteudo">
+                            <p class="texto" style="margin-top: 4rem;">O campeonato é disputado por 20 equipes, que jogam entre si em turno e returno, totalizando 38 rodadas.
+                                Durante a competição, cada equipe joga contra todas as outras duas vezes, uma vez em casa e outra fora. A equipe que somar 
+                                mais pontos ao final das 38 rodadas é declarada campeã. Os critérios de desempate em caso de igualdade de pontos são, em 
+                                ordem: número de vitórias, saldo de gols, gols marcados, confronto direto e número de cartões vermelhos e amarelos recebidos.
+                                Os clubes que terminam a competição nas quatro primeiras posições se classificam para a Copa Libertadores da América, o 
+                                principal torneio de clubes do continente. Já os seis clubes que terminam entre a quinta e a décima posição se classificam 
+                                para a Copa Sul-Americana, outra competição continental. Os quatro últimos colocados são rebaixados para a Série B do ano 
+                                seguinte.O Brasileirão começa geralmente em maio ou abril e termina em dezembro. Durante a competição, os clubes também podem 
+                                disputar outras competições, como a Copa do Brasil e a Copa Sul-Americana, o que pode levar a uma carga intensa de jogos e 
+                                desgaste físico dos jogadores.</p>
+                            <img class="imagem-regras" src="img/regras.png" alt="Foto antiga do Campeonato Brasileiro Série A">
+                        </div>
+                    </div>
+                    
+                    <p style="border-bottom: 1px solid #252525; margin-top: 4rem;" ></p> <!--Gambiarra para por linha para seprar os tópicos-->
+
+                    <div class="aplicativo" style="margin-bottom: 3rem;">
+                        <h3 class="title">Baixe o Nosso APP!</h3>
+                        <div class="conteudo">
+                            <div class="texto-imagem">
+                                <p class="texto" style="margin-top: 4rem;">Se você é fã de futebol e acompanha o Campeonato Brasileiro Série A, então o nosso aplicativo é o que você precisa, para testar seus conhecimentos sobre o torneio!
+                                    Com perguntas atualizadas sobre as últimas temporadas do campeonato, você pode desafiar seus amigos e competir para ver quem sabe mais sobre os times, jogadores e estatísticas da competição.</p>
+                                <img class="imagem-app" src="img/jogadores.png" style="width: 900px; height: 250px;" alt="Foto antiga do Campeonato Brasileiro Série A">
+                            </div>
+                            <img class="imagem-app2" src="img/baixe-o-app.png" alt="Foto antiga do Campeonato Brasileiro Série A">
+                        </div>
+                    </div>                   
+            </section>    
+        </div>
+
+        <footer> <!--rodapé-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <a href="index.html"> <i class="fas fa-house" id="i-rodape"></i></a>
+                        <a href="campeoes.html"> <i class="fas fa-trophy" id="i-rodape"></i></a>
+                        <a href="times.html"> <i class="fas fa-futbol" id="i-rodape"></i></a>
+                        <a href="estatisticas.html"> <i class="fa-solid fa-chart-line"id="i-rodape"></i></a><br><br>
+                     </div>
+                     <p class="creditos"> Feito pela equipe <span>Web Titans</span> | Todos Os Direitos Reservados!</p>
+                </div>
+            </section>
+        </footer>
+    
+        <script src="javascript/botao-acd"></script>
+    </body>
+</html>

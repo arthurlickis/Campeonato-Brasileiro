@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Campeonato Brasileiro Série A - 2023</title>
+</head>
+    <body>
+        <header>    <!--Menu-->
+            <div class="menu">
+                <ul class="menu-hz">
+                    <img class="logo-menu-hz" src="img/logo.png" alt="logo">
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="campeoes.html">Campeões</a></li>
+                    <li><a href="times.html" style="font-weight: bold;">Times</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="article-container"> <!--Contéudo do Site-->
+            <button class="btn-acd"><i class="fa-solid fa-wheelchair-move"></i>ﾠAcessibilidade</button> <!--Botão Acessibilidade-->
+            <div class="caixa-opcoes">
+              <button class="opcao-fonte"><span class="material-symbols-outlined" style="font-size: 16px;">text_fields</span>ﾠAlterar Fonte</button>
+              <button class="tema" onclick="toggleDarkMode()"><span class="material-symbols-outlined" style="font-size: 16px;">dark_mode</span>ﾠTema</button>
+            <button class="aumentar-c" onclick="aumentarContraste()"><span class="material-symbols-outlined" style="font-size: 16px;">contrast</span>ﾠAum. Contraste</button>
+            <button class="aumentar-c" onclick="Brilho()"><span class="material-symbols-outlined" style="font-size: 16px;">brightness_6</span>ﾠAlterar Brilho</button>
+            <button class="fechar" ><span class="material-symbols-outlined" style="font-size: 16px;">close</span>ﾠFechar</button>
+            </div>
+                
+                    <section class="conteudo-1"> <!--contéudo história do campoenato-->
+                        <h1 class="title">Cruzeiro</h1>
+                        <img class="escudo-time" src="img/times/cruzeiro.png" alt="cruzeiro">
+                            <div class="elenco-container" style="margin-top: 2rem; margin-bottom: 6rem;">
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/rafael.png" alt="RAFAEL CABRAL">
+                                    <div class="elenco-info">
+                                      <h3 class="title-elenco">Rafael Cabral</h3>
+                                      <p class="posição">Goleiro</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/cruzeiro/richard.png" alt="RICHARD">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Richard</h3>
+                                        <p class="posição">Meia</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/kaiki.png" alt="KAIKI">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Kaiki Bruno</h3>
+                                        <p class="posição">Lateral Esquerdo</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/vital.png" alt="MATHEUS VITAL">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Mateus Vital</h3>
+                                        <p class="posição">Meia</p>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/marlon.png" alt="MARLON">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Marlon</h3>
+                                        <p class="posição">Lateral Direito</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/cruzeiro/gilberto.png" alt="GILBERTO">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Gilberto</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/igor.png" alt="IGOR FORMIGA">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Igor Formiga</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/bilu.png" alt="RAFAEL BILU">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Rafael Bilu</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/luciano.png" alt="LUCIANO CASTÁN">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Luciano Castán</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/cruzeiro/wesley.png" alt="WESLEY">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Wesley</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/ramiro.png" alt="RAMIRO">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Ramiro</h3>
+                                        <p class="posição">Volante</p>
+                                    </div>
+                                </div> 
+
+                                <div class="elenco-d" style="background: #14141B;">
+                                    <img class="imagem-jogador" src="img/times/cruzeiro/pepa.png" alt="pepa">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco-tec">Pepa</h3>
+                                        <p class="posição">Técnico</p>
+                                    </div>
+                                </div>
+                            </div>        
+                            
+                                <div class="tabela-times">
+                                    <table>
+                                        <tr>
+                                            <th>Títulos</th>
+                                            <th>Rebaixamentos</th>
+                                            <th>Informações Relevantes</th>
+                                        </tr>
+                                            <tr>
+                                                <td>4 <p>(1993, 1996, 2000, 2003, 2017 e 2018)</p></td>
+                                                <td class="oi">1 <p>(2019)</p></td>
+                                                <td>5 vices.
+                                                    <p>(1974, 1975, 1998 e 2010).</p>
+                                                    <p>A maior pontuação em uma única edição é do Cruzeiro, no Brasileirão de 2003 com 100 pontos.</p></td>
+                                            </tr>
+                                    </table>
+                                </div>
+            </section>    
+        </div>
+
+        <footer> <!--rodapé-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <a href="index.html"> <i class="fas fa-house" id="i-rodape"></i></a>
+                        <a href="campeoes.html"> <i class="fas fa-trophy" id="i-rodape"></i></a>
+                        <a href="times.html"> <i class="fas fa-futbol" id="i-rodape"></i></a>
+                        <a href="estatisticas.html"> <i class="fa-solid fa-chart-line"id="i-rodape"></i></a><br><br>
+                     </div>
+                     <p class="creditos"> Feito pela equipe <span>Web Titans</span> | Todos Os Direitos Reservados!</p>
+                </div>
+            </section>
+        </footer>
+    
+        <script src="javascript/botao-acd"></script>
+    </body>
+</html>

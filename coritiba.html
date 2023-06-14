@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Campeonato Brasileiro Série A - 2023</title>
+</head>
+    <body>
+        <header>    <!--Menu-->
+            <div class="menu">
+                <ul class="menu-hz">
+                    <img class="logo-menu-hz" src="img/logo.png" alt="logo">
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="campeoes.html">Campeões</a></li>
+                    <li><a href="times.html" style="font-weight: bold;">Times</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="article-container"> <!--Contéudo do Site-->
+            <button class="btn-acd"><i class="fa-solid fa-wheelchair-move"></i>ﾠAcessibilidade</button> <!--Botão Acessibilidade-->
+                <div class="caixa-opcoes">
+                  <button class="opcao-fonte"><span class="material-symbols-outlined" style="font-size: 16px;">text_fields</span>ﾠAlterar Fonte</button>
+                  <button class="tema" onclick="toggleDarkMode()"><span class="material-symbols-outlined" style="font-size: 16px;">dark_mode</span>ﾠTema</button>
+		        <button class="aumentar-c" onclick="aumentarContraste()"><span class="material-symbols-outlined" style="font-size: 16px;">contrast</span>ﾠAum. Contraste</button>
+                <button class="aumentar-c" onclick="Brilho()"><span class="material-symbols-outlined" style="font-size: 16px;">brightness_6</span>ﾠAlterar Brilho</button>
+                <button class="fechar" ><span class="material-symbols-outlined" style="font-size: 16px;">close</span>ﾠFechar</button>
+                </div>
+                
+                    <section class="conteudo-1"> <!--contéudo história do campoenato-->
+                        <h1 class="title">Coritiba</h1>
+                        <img class="escudo-time" src="img/times/Coritiba.png" alt="Coritiba">
+                            <div class="elenco-container" style="margin-top: 2rem; margin-bottom: 6rem;">
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/gabriel.png" alt="Gabriel">
+                                    <div class="elenco-info">
+                                      <h3 class="title-elenco">Gabriel</h3>
+                                      <p class="posição">Goleiro</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/Coritiba/boschillia.png" alt="BOSCHILLIA">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Boschillia</h3>
+                                        <p class="posição">Volante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/victor.png" alt="VICTOR LUIS">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Victor Luis</h3>
+                                        <p class="posição">Lateral Esquerdo</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/lizeiro.png" alt="LIZIERO">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Liziero</h3>
+                                        <p class="posição">Meia</p>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/natanael.png" alt="NATANAEL">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Natanael</h3>
+                                        <p class="posição">Lateral Direito</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/Coritiba/alef.png" alt="ALEF MANGA">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Alef Manga</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/kuscevic.png" alt="KUSCEVIC">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Kuscevic</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/robson.png" alt="ROBSON">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Robson</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/henrique.png" alt="HENRIQUE">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Henrique</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/Coritiba/rodrigo.png" alt="RODRIGO PINHO">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Rodrigo Pinho</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/andrey.png" alt="ANDREY">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Andrey</h3>
+                                        <p class="posição">Volante</p>
+                                    </div>
+                                </div> 
+
+                                <div class="elenco-d" style="background: #14141B;">
+                                    <img class="imagem-jogador" src="img/times/Coritiba/antonio.png" alt="ANTÓNIO OLIVEIRA">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco-tec">António Oliveira</h3>
+                                        <p class="posição">Técnico</p>
+                                    </div>
+                                </div>
+                            </div>        
+                            
+                                <div class="tabela-times">
+                                    <table>
+                                        <tr>
+                                            <th>Títulos</th>
+                                            <th>Rebaixamentos</th>
+                                            <th>Informações Relevantes</th>
+                                        </tr>
+                                            <tr>
+                                                <td>1 <p>(1985)</p></td>
+                                              <td class="oi">6 <p>(1989, 1993, 2005, 2009, 2017 e 2020)</p></td>
+                                                <td>Não possui vice-campeonato
+                                                    É o 3º time com mais rebaixamentos do campeonato</p></td>
+                                            </tr>
+                                    </table>
+                                </div>
+            </section>    
+        </div>
+
+        <footer> <!--rodapé-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <a href="index.html"> <i class="fas fa-house" id="i-rodape"></i></a>
+                        <a href="campeoes.html"> <i class="fas fa-trophy" id="i-rodape"></i></a>
+                        <a href="times.html"> <i class="fas fa-futbol" id="i-rodape"></i></a>
+                        <a href="estatisticas.html"> <i class="fa-solid fa-chart-line"id="i-rodape"></i></a><br><br>
+                     </div>
+                     <p class="creditos"> Feito pela equipe <span>Web Titans</span> | Todos Os Direitos Reservados!</p>
+                </div>
+            </section>
+        </footer>
+    
+        <script src="javascript/botao-acd"></script>
+    </body>
+</html>

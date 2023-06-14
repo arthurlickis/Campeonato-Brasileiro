@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Campeonato Brasileiro Série A - 2023</title>
+</head>
+    <body>
+        <header>    <!--Menu-->
+            <div class="menu">
+                <ul class="menu-hz">
+                    <img class="logo-menu-hz" src="img/logo.png" alt="logo">
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="campeoes.html" style="font-weight: bold;">Campeões</a></li>
+                    <li><a href="times.html">Times</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="article-container"> <!--Contéudo do Site-->
+            <button class="btn-acd"><i class="fa-solid fa-wheelchair-move"></i>ﾠAcessibilidade</button> <!--Botão Acessibilidade-->
+            <div class="caixa-opcoes">
+              <button class="opcao-fonte"><span class="material-symbols-outlined" style="font-size: 16px;">text_fields</span>ﾠAlterar Fonte</button>
+              <button class="tema" onclick="toggleDarkMode()"><span class="material-symbols-outlined" style="font-size: 16px;">dark_mode</span>ﾠTema</button>
+            <button class="aumentar-c" onclick="aumentarContraste()"><span class="material-symbols-outlined" style="font-size: 16px;">contrast</span>ﾠAum. Contraste</button>
+            <button class="aumentar-c" onclick="Brilho()"><span class="material-symbols-outlined" style="font-size: 16px;">brightness_6</span>ﾠAlterar Brilho</button>
+            <button class="fechar" ><span class="material-symbols-outlined" style="font-size: 16px;">close</span>ﾠFechar</button>
+            </div>
+            
+                <section class="conteudo-1"> <!--contéudo campões do campoenato-->
+                    <h1 class="title" style="margin-top: 3rem;">Últimos Campeões</h1>
+
+                        <div class="cards-container">
+                                <div class="cards">
+                                    <img src="img/palmeiras-camp.png" alt="palmeiras" style="margin-top: 4rem;"><br>
+                                    <h4>PALMEIRAS - 2022</h4>
+                                    <span class="title-campanha">Campanha:</span> <span style="font-size: 14px;">81 pontos em 38 jogos (23 vitórias, 12 empates e 3 derrotas) 66 gols marcados e 27 gols sofridos.</span><br>
+                                    <p class="texto">O título marcou a entrada de Danilo, Gabriel Menino, Zé Rafael, Raphael Veiga, Rony, Wesley e Veron no seleto grupo de 
+                                        jogadores que conquistaram o Paulista, o Brasileiro, a Copa do Brasil e a Libertadores pelo Palmeiras, se juntando a Weverton, 
+                                        Luan, Gustavo Gómez, Marcos Rocha, Mayke, Gustavo Scarpa e Dudu do elenco campeão. Completam a lista Velloso, Cleber, Vitor 
+                                        Hugo, Felipe Melo, Lucas Lima, Zinho e Willian.</p> 
+                                    <p class="texto">Tricampeão da competição pelo clube, Dudu alcançou o topo do ranking de 
+                                        jogadores que mais venceram pelo Verdão no torneio nacional. O camisa 7 chegou a 119 vitórias e superou o goleiro Emerson 
+                                        Leão, com 112. Com seis gols nesta edição, o atacante ainda terminou a competição em segundo na lista de atletas que mais 
+                                        marcaram pelo Palmeiras em brasileiros, com 50 gols, atrás apenas de Cesar Maluco, com 61.</p>
+                                </div>
+
+                                <div class="cards">
+                                    <img src="img/atletico-camp.png" alt="palmeiras" style="margin-top: 4rem;"><br>
+                                    <h4>ATLÉTICO MINEIRO - 2021</h4>
+                                    <span class="title-campanha">Campanha:</span> <span style="font-size: 14px;"> 84 pontos em 38 jogos (26 vitórias, 6 empates e 6 derrotas) 67 gols marcados e 34 gols sofridos.</span><br>
+                                    <p class="texto"> Uma campanha irretocável do início ao fim. Campeão com duas rodadas de antecedência, o Atlético-MG bateu recordes e atingiu números
+                                         incríveis no Brasileirão 2021. Com 84 pontos, estabeleceu a 2ª maior pontuação e o 2º maior número de vitórias da história 
+                                         dos pontos corridos desde 2006, atrás apenas do Flamengo de 2019.</p> 
+                                    <p class="texto"> Além disso, garantiu o recorde de maior número de vitórias 
+                                         seguidas em casa na história do Campeonato Brasileiro, saindo com os três pontos em 16 partidas consecutivas. O Brasileiro de 
+                                         2021 serviu como trunfo para o Galo trilhar novas marcas e recordes no Guinness Book do campeonato.. O time de Cuca foi o 
+                                         único que ficou com 100% de aproveitamento ao lado de seu torcedor, com dez vitórias em dez jogos. Ao todo, o campeão só 
+                                         perdeu em casa a primeira partida do campeonato.</p>
+                                </div>
+
+                                <div class="cards">
+                                    <img src="img/flamengo-camp.png" alt="palmeiras" style="margin-top: 4rem;"><br>
+                                    <h4>FLAMENGO - 2020</h4>
+                                    <span class="title-campanha">Campanha:</span> <span style="font-size: 14px;"> 71 pontos em 38 jogos (21 vitórias, 8 empates e 9 derrotas) 68 gols marcados e 48 gols sofridos.</span><br>
+                                    <p class="texto"> O Flamengo é o grande campeão do Brasileirão Assaí 2020. Apesar do revés nesta quinta-feira (25) diante do 
+                                        São Paulo, no Morumbi, o Rubro-Negro conquistou o bicampeonato do Campeonato Brasileiro. Pela primeira vez em 38 anos a 
+                                        equipe carioca conquistou dois títulos consecutivos. Diante de tal façanha, o site da CBF irá relembrar os grandes momentos 
+                                        da campanha do Mengão na Série A desta temporada.</p>
+                                    <p class="texto"> Com o tropeço do Internacional, o Flamengo se sagrou campeão na 38ª e última rodada do Brasileirão 
+                                        Assaí 2020. Ao longo de 38 rodadas, o Rubro-Negro somou 71 pontos. A campanha gloriosa conta com 21 vitórias, oito empates e 
+                                        nove derrotas. Equilibrado nos dois extremos do campo, o time da Gávea balançou a rede 68 vezes e sofreu 48 gols – com um saldo de gols de 20.</p>
+                                </div>
+                        </div>
+                            
+                        <p class="linha" ></p> <!--Gambiarra para por linha para seprar os tópicos-->
+
+                        <div class="video">
+                            <h2 class="title" style="margin-top: 3rem;">Sinta a Emoção</h2>
+                                <div style="text-align: center;">
+                                    <iframe width="60%" height="315" src="https://www.youtube.com/embed/okP7tHDvMpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin: 4rem; border-radius: 16px;   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"></iframe>
+                                </div>
+                        </div>    
+        </section>   
+    </div>
+    
+        <footer> <!--rodapé-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <a href="index.html"> <i class="fas fa-house" id="i-rodape"></i></a>
+                        <a href="campeoes.html"> <i class="fas fa-trophy" id="i-rodape"></i></a>
+                        <a href="times.html"> <i class="fas fa-futbol" id="i-rodape"></i></a>
+                        <a href="estatisticas.html"> <i class="fa-solid fa-chart-line"id="i-rodape"></i></a><br><br>
+                     </div>
+                     <p class="creditos"> Feito pela equipe <span>Web Titans</span> | Todos Os Direitos Reservados!</p>
+                </div>
+            </section>
+        </footer>
+    
+        <script src="javascript/botao-acd"></script>
+    </body>
+</html>

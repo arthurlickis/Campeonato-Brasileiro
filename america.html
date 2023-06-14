@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Campeonato Brasileiro Série A - 2023</title>
+</head>
+    <body>
+        <header>    <!--Menu-->
+            <div class="menu">
+                <ul class="menu-hz">
+                    <img class="logo-menu-hz" src="img/logo.png" alt="logo">
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="campeoes.html">Campeões</a></li>
+                    <li><a href="times.html" style="font-weight: bold;">Times</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="article-container"> <!--Contéudo do Site-->
+            <button class="btn-acd"><i class="fa-solid fa-wheelchair-move"></i>ﾠAcessibilidade</button> <!--Botão Acessibilidade-->
+            <div class="caixa-opcoes">
+              <button class="opcao-fonte"><span class="material-symbols-outlined" style="font-size: 16px;">text_fields</span>ﾠAlterar Fonte</button>
+              <button class="tema" onclick="toggleDarkMode()"><span class="material-symbols-outlined" style="font-size: 16px;">dark_mode</span>ﾠTema</button>
+            <button class="aumentar-c" onclick="aumentarContraste()"><span class="material-symbols-outlined" style="font-size: 16px;">contrast</span>ﾠAum. Contraste</button>
+            <button class="aumentar-c" onclick="Brilho()"><span class="material-symbols-outlined" style="font-size: 16px;">brightness_6</span>ﾠAlterar Brilho</button>
+            <button class="fechar" ><span class="material-symbols-outlined" style="font-size: 16px;">close</span>ﾠFechar</button>
+            </div>
+                
+                    <section class="conteudo-1"> <!--contéudo história do campoenato-->
+                        <h1 class="title">América</h1>
+                        <img class="escudo-time" src="img/times/america.png" alt="america">
+                            <div class="elenco-container" style="margin-top: 2rem; margin-bottom: 6rem;">
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/america/matheus.png" alt="MATHEUS CAVICHIOLI">
+                                    <div class="elenco-info">
+                                      <h3 class="title-elenco">Matheus Cavichioli</h3>
+                                      <p class="posição">Goleiro</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/america/ale.png" alt="ALÊ">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Alê</h3>
+                                        <p class="posição">Meia</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/america/MARLON.png" alt="MARLON">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Marlon</h3>
+                                        <p class="posição">Lateral Esquerdo</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/america/BENITEZ.png" alt="BENITEZ">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Benítez</h3>
+                                        <p class="posição">Meia</p>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/america/NINO.png" alt="NINO PARAÍBA">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Nino Paraíba</h3>
+                                        <p class="posição">Lateral Direito</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/america/FELIPE.png" alt="FELIPE AZEVEDO">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Felipe Azevedo</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/america/éDER.png" alt="ÉDER">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Éder</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/america/aloiso.png" alt="ALOÍSIO">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Aloísio</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/america/DANILO.png" alt="DANILO AVELAR">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Danilo Avelar</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/america/WELLINGTON.png" alt="WELLINGTON PAULISTA">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Wellington Paulista</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/america/JUNINHO.png" alt="JUNINHO">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Juninho</h3>
+                                        <p class="posição">Volante</p>
+                                    </div>
+                                </div> 
+
+                                <div class="elenco-d" style="background: #14141B;">
+                                    <img class="imagem-jogador" src="img/times/america/vagner mancini.png" alt="VAGNER MANCINI">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco-tec">Vagner Mancini</h3>
+                                        <p class="posição">Técnico</p>
+                                    </div>
+                                </div>
+                            </div>        
+                            
+                                <div class="tabela-times">
+                                    <table>
+                                        <tr>
+                                            <th>Títulos</th>
+                                            <th>Rebaixamentos</th>
+                                            <th>Informações Relevantes</th>
+                                        </tr>
+                                            <tr>
+                                                <td>0 <p>O time nunca venceu o campeonato</p></td>
+                                                <td class="oi">6 <p>(1993, 1998, 2001, 2011, 2016 e 2018)</p></td>
+                                                <td><p>Não possui vice-campeonato </p>
+                                                    <p>É o time com mais rebaixamentos do campeonato</p></td>
+                                            </tr>
+                                    </table>
+                                </div>
+            </section>    
+        </div>
+
+        <footer> <!--rodapé-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <a href="index.html"> <i class="fas fa-house" id="i-rodape"></i></a>
+                        <a href="campeoes.html"> <i class="fas fa-trophy" id="i-rodape"></i></a>
+                        <a href="times.html"> <i class="fas fa-futbol" id="i-rodape"></i></a>
+                        <a href="estatisticas.html"> <i class="fa-solid fa-chart-line"id="i-rodape"></i></a><br><br>
+                     </div>
+                     <p class="creditos"> Feito pela equipe <span>Web Titans</span> | Todos Os Direitos Reservados!</p>
+                </div>
+            </section>
+        </footer>
+    
+        <script src="javascript/botao-acd"></script>
+    </body>
+</html>

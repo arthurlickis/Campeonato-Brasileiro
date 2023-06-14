@@ -1,0 +1,51 @@
+HTML 
+
+ <button class="tema" onclick="toggleDarkMode()"><span class="material-symbols-outlined" style="font-size: 16px;">dark_mode</span>ﾠTema</button>
+
+ CSS
+
+ body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode h1 {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode h2 {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode h3 {
+    background-color: #333;
+    color: #fff;
+  }
+
+  JAVASCRIPT
+
+  function toggleDarkMode() {
+    var body = document.querySelector('body');
+    body.classList.toggle('dark-mode');
+    
+    if (body.classList.contains('dark-mode')) {
+      // Modo escuro ativado
+      localStorage.setItem('darkMode', 'true');
+    } else {
+      // Modo claro ativado
+      localStorage.setItem('darkMode', 'false');
+    }
+  }
+  
+  // Verificar o status do modo escuro ao carregar a página
+  window.addEventListener('load', function() {
+    var darkMode = localStorage.getItem('darkMode');
+    
+    if (darkMode === 'true') {
+      document.querySelector('body').classList.add('dark-mode');
+    } else {
+      document.querySelector('body').classList.remove('dark-mode');
+    }
+  });

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Campeonato Brasileiro Série A - 2023</title>
+</head>
+    <body>
+        <header>    <!--Menu-->
+            <div class="menu">
+                <ul class="menu-hz">
+                    <img class="logo-menu-hz" src="img/logo.png" alt="logo">
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="campeoes.html">Campeões</a></li>
+                    <li><a href="times.html" style="font-weight: bold;">Times</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="article-container"> <!--Contéudo do Site-->
+            <button class="btn-acd"><i class="fa-solid fa-wheelchair-move"></i>ﾠAcessibilidade</button> <!--Botão Acessibilidade-->
+            <div class="caixa-opcoes">
+              <button class="opcao-fonte"><span class="material-symbols-outlined" style="font-size: 16px;">text_fields</span>ﾠAlterar Fonte</button><br>
+              <button class="fechar"><span class="material-symbols-outlined" style="font-size: 16px;">close</span>ﾠFechar</button>
+            </div>
+            
+                <section class="conteudo-1"> <!--contéudo campões do campoenato-->
+                    <h1 class="title" style="margin-top: 3rem;">Times da Temporada 2023</h1>
+                    <p class="texto" style="margin-top: 4rem; margin-bottom: 3rem;">Escolha o time por estados e clique no time para mais informações</p>
+                        
+                        <div class="estados-container">
+
+                            <!--Estados-->
+
+                            <div class="estados"> <!--Bahia-->
+                                <img src="img/estado/est-ba.png" alt="estado Bahia" class="estados-img" onclick="toggle('bahia')">
+                                <p>BA</p>
+                            </div>
+                            
+                            <div class="estados"> <!--Ceará-->
+                                <img src="img/estado/est-ce.png" alt="estado Ceará" class="estados-img" onclick="toggle('ceara')">
+                                <p>CE</p>
+                            </div>
+
+                            <div class="estados"> <!--Goiás-->
+                                <img src="img/estado/est-go.png" alt="estado Goiás" class="estados-img" onclick="toggle('goias')">
+                                <p>GO</p>
+                            </div>
+
+                            <div class="estados"> <!--Mato Grosso-->
+                                <img src="img/estado/est-mt.png" alt="estado Mato Grosso" class="estados-img"onclick="toggle('mato')">
+                                <p>MT</p>
+                            </div>
+
+                            <div class="estados"> <!--Minas Gerais-->
+                                <img src="img/estado/est-mg.png" alt="estado Minas Gerais" class="estados-img" onclick="toggle('minas')">
+                                <p>MG</p>
+                            </div>
+
+                            <div class="estados"> <!--Paraná-->
+                                <img src="img/estado/est-pr.png" alt="estado Paraná" class="estados-img" onclick="toggle('parana')">
+                                <p>PR</p>
+                            </div>
+
+                            <div class="estados"> <!--Rio de Janeiro-->
+                                <img src="img/estado/est-rj.png" alt="estado Rio de Janeiros" class="estados-img" onclick="toggle('rio')">
+                                <p>RJ</p>
+                            </div>
+
+                            <div class="estados"> <!--RIO GRANDE DO SUL-->
+                                <img src="img/estado/est-rs.png" alt="estado Rio Grande do Sul" class="estados-img" onclick="toggle('riosul')">
+                                <p>RS</p>
+                            </div>
+
+                            <div class="estados"> <!--SÃO PAULO-->
+                                <img src="img/estado/est-sp.png" alt="estado São Paulo" class="estados-img" onclick="toggle('sp')">
+                                <p>SP</p>
+                            </div>
+                        </div>  <!--Estados-->
+
+                        <!--Times-->
+
+                        <div class="times-container" style="margin-top: 4rem;">
+
+                            <div class="times bahia-teams" id="bahia" style="display: none;">
+                                <a href="bahia.html"><img src="img/times/bahia.png" alt="Bahia"></a>
+                                <p style="margin-top: 1.6rem;">Bahia</p>
+                            </div>
+
+                            <div class="times ceara-teams" id="ceara" style="display: none;">
+                                <a href="fortaleza.html"><img src="img/times/fortaleza.png" alt="Ceara"></a>
+                                <p style="margin-top: 1.6rem;">Fortaleza</p>
+                            </div>
+
+                            <div class="times goias-teams" id="goias" style="display: none;">
+                                <a href="goias.html"><img src="img/times/goias.png" alt="Goiás"></a>
+                                <p style="margin-top: 1.6rem;">Goiás</p>
+                            </div>
+
+                            <div class="times mato-teams" id="mato" style="display: none;">
+                                <a href="cuiaba.html"><img src="img/times/cuiaba.png" alt="Cuiabá"></a>
+                                <p style="margin-top: 1.6rem;">Cuiabá</p>
+                            </div>
+
+                            <div class="times minas-teams" id="minas" style="display: none;">
+                                <a href="america.html"><img src="img/times/america.png" alt="América-MG"></a>
+                                <p style="margin-top: 1.6rem;">América-MG</p>
+                            </div>
+                            <div class="times minas-teams" id="minas2" style="display: none;">
+                                <a href="atletico.html"><img src="img/times/atletico.png" alt="Atlético Mineiro"></a>
+                                <p>Atlético Mineiro</p>
+                            </div>
+                            <div class="times minas-teams" id="minas3" style="display: none;">
+                                <a href="cruzeiro.html"><img src="img/times/cruzeiro.png" alt="Cruzeiro"></a>
+                                <p style="margin-top: 2rem;">Cruzeiro</p>
+                            </div>
+
+                            <div class="times parana-teams" id="parana" style="display: none;">
+                                <a href="athletico-pr.html"><img src="img/times/athletico-pr.png" alt="Athletico" style="width: 70%;"></a>
+                                <p>Athletico Paranaense</p>
+                            </div>
+                            <div class="times parana-teams" id="parana2" style="display: none;">
+                                <a href="coritiba.html"><img src="img/times/coritiba.png" alt="Coritiba"></a>
+                                <p style="margin-top: 2rem;">Coritiba</p>
+                            </div>
+
+                            <div class="times rio-teams" id="rio" style="display: none;">
+                                <a href="botafogo.html"><img src="img/times/botafogo.png" alt="Botafogo"></a>
+                                <p style="margin-top: 1.8rem;">Botafogo</p>
+                            </div>
+                            <div class="times rio-teams" id="rio2" style="display: none;">
+                                <a href="flamengo.html"><img src="img/times/flamengo.png" alt="Flamengo"></a>
+                                <p style="margin-top: 2rem;">Flamengo</p>
+                            </div>
+                            <div class="times rio-teams" id="rio3" style="display: none;">
+                                <a href="fluminense.html"><img src="img/times/fluminense.png" alt="Fluminense"></a>
+                                <p>Fluminense</p>
+                            </div>
+                            <div class="times rio-teams" id="rio4" style="display: none;">
+                                <a href="vasco.html"><img src="img/times/vasco.png" alt="Vasco da Gama" style="width: 90%;"></a>
+                                <p style="margin-top: 2.5rem;">Vasco da Gama</p>
+                            </div>
+
+                            <div class="times riosul-teams" id="riosul" style="display: none;">
+                               <a href="gremio.html"><img src="img/times/gremio.png" alt="Grêmio"></a>
+                                <p style="margin-top: 2.1rem;">Grêmio</p>
+                            </div>
+                            <div class="times riosul-teams" id="riosul2" style="display: none;">
+                                <a href="internacional.html"><img src="img/times/internacional.png" alt="Internacional"></a>
+                                <p>Internacional</p>
+                            </div>
+
+                            <div class="times sp-teams" id="sp" style="display: none;">
+                                <a href="bragantino.html"><img src="img/times/bragantino.png" alt="Red Bull Bragantino"></a>
+                                <p>Red Bull Bragantino</p>
+                            </div>
+                            <div class="times sp-teams" id="sp2" style="display: none;">
+                                <a href="corinthians.html"><img src="img/times/corinthians.png" alt="Corinthians"></a>
+                                <p style="margin-top: 2.2rem;">Corinthians</p>
+                            </div>
+                            <div class="times sp-teams" id="sp3" style="display: none;">
+                                <a href="palmeiras.html"><img src="img/times/palmeiras.png" alt="Palmeiras"></a>
+                                <p style="margin-top: 2.8rem;">Palmeiras</p>
+                            </div>
+                            <div class="times sp-teams" id="sp4" style="display: none;">
+                                <a href="santos.html"><img src="img/times/santos.png" alt="Santos" style="width: 95%;"></a>
+                                <p style="margin-top: 2.35rem;">Santos</p>
+                            </div>
+                            <div class="times sp-teams" id="sp5" style="display: none;">
+                                <a href="sao-paulo.html"><img src="img/times/sao-paulo.png" alt="São Paulo" style="margin-top: 3rem;"></a>
+                                <p style="margin-top: 3.2rem;">São Paulo</p>
+                            </div>
+  
+                            </div>  <!--Times-->
+                        </div> 
+        </section>   
+    </div>
+    
+        <footer> <!--rodapé-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <a href="index.html"> <i class="fas fa-house" id="i-rodape"></i></a>
+                        <a href="campeoes.html"> <i class="fas fa-trophy" id="i-rodape"></i></a>
+                        <a href="times.html"> <i class="fas fa-futbol" id="i-rodape"></i></a>
+                        <a href="estatisticas.html"> <i class="fa-solid fa-chart-line"id="i-rodape"></i></a><br><br>
+                     </div>
+                     <p class="creditos"> Feito pela equipe <span>Web Titans</span> | Todos Os Direitos Reservados!</p>
+                </div>
+            </section>
+        </footer>
+    
+        <script src="javascript/botao-acd"></script>
+        <script src="javascript/times"></script>
+        
+    </body>
+</html>

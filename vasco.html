@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Campeonato Brasileiro Série A - 2023</title>
+</head>
+    <body>
+        <header>    <!--Menu-->
+            <div class="menu">
+                <ul class="menu-hz">
+                    <img class="logo-menu-hz" src="img/logo.png" alt="logo">
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="campeoes.html">Campeões</a></li>
+                    <li><a href="times.html" style="font-weight: bold;">Times</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="article-container"> <!--Contéudo do Site-->
+            <button class="btn-acd"><i class="fa-solid fa-wheelchair-move"></i>ﾠAcessibilidade</button> <!--Botão Acessibilidade-->
+            <div class="caixa-opcoes">
+              <button class="opcao-fonte"><span class="material-symbols-outlined" style="font-size: 16px;">text_fields</span>ﾠAlterar Fonte</button>
+              <button class="tema" onclick="toggleDarkMode()"><span class="material-symbols-outlined" style="font-size: 16px;">dark_mode</span>ﾠTema</button>
+            <button class="aumentar-c" onclick="aumentarContraste()"><span class="material-symbols-outlined" style="font-size: 16px;">contrast</span>ﾠAum. Contraste</button>
+            <button class="aumentar-c" onclick="Brilho()"><span class="material-symbols-outlined" style="font-size: 16px;">brightness_6</span>ﾠAlterar Brilho</button>
+            <button class="fechar" ><span class="material-symbols-outlined" style="font-size: 16px;">close</span>ﾠFechar</button>
+            </div>
+                
+                    <section class="conteudo-1"> <!--contéudo história do campoenato-->
+                        <h1 class="title">Vasco da Gama</h1>
+                        <img class="escudo-time" src="img/times/vasco.png" alt="vasco">
+                            <div class="elenco-container" style="margin-top: 2rem; margin-bottom: 6rem;">
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/vasco/leo.png" alt="leo">
+                                    <div class="elenco-info">
+                                      <h3 class="title-elenco">Léo Jardim</h3>
+                                      <p class="posição">Goleiro</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/vasco/rodrigo.png" alt="rodrigo">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Rodrigo</h3>
+                                        <p class="posição">Volante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/vasco/lucas.png" alt="lucas">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Lucas Piton</h3>
+                                        <p class="posição">Lateral Esquerdo</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/vasco/jair.png" alt="jair">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Jair</h3>
+                                        <p class="posição">Meia</p>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/vasco/puma.png" alt="puma">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Puma Rodríguez</h3>
+                                        <p class="posição">Lateral Direito</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/vasco/alex.png" alt="alex">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Alex Teixeira</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/vasco/robson.png" alt="robson">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Robson Bambu</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador" src="img/times/vasco/gabriel.png" alt="gabriel">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Gabriel Pec</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/vasco/leo-pele.png" alt="leo-pele">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Léo Pelé</h3>
+                                        <p class="posição">Zagueiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco-d">
+                                    <img class="imagem-jogador"src="img/times/vasco/pedro.png" alt="pedro">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Pedro Raul</h3>
+                                        <p class="posição">Atacante</p>
+                                    </div>
+                                </div>
+
+                                <div class="elenco">
+                                    <img class="imagem-jogador" src="img/times/vasco/andrey.png" alt="andrey">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco">Andrey Santos</h3>
+                                        <p class="posição">Volante</p>
+                                    </div>
+                                </div> 
+
+                                <div class="elenco-d" style="background: #14141B;">
+                                    <img class="imagem-jogador" src="img/times/vasco/mauricio.png" alt="mauricio">
+                                    <div class="elenco-info">
+                                        <h3 class="title-elenco-tec">Maurício Barbieri</h3>
+                                        <p class="posição">Técnico</p>
+                                    </div>
+                                </div>
+                            </div>        
+                            
+                                <div class="tabela-times">
+                                    <table>
+                                        <tr>
+                                            <th>Títulos</th>
+                                            <th>Rebaixamentos</th>
+                                            <th>Informações Relevantes</th>
+                                        </tr>
+                                            <tr>
+                                                <td>4 <p>(1974, 1989, 1997 e 2000)</p></td>
+                                                <td class="oi">4 <p>(2008, 2013, 2015 e 2020)</p></td>
+                                                <td>4 vices <p> (1965, 1979, 1984 e 2011) </p>
+                                                    <p>O vasco atingiu mais de 500 vitórias no Campeonato Brasileiro Série A contando a partir de 1971</p></td>
+                                            </tr>
+                                    </table>
+                                </div>
+            </section>    
+        </div>
+
+        <footer> <!--rodapé-->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <a href="index.html"> <i class="fas fa-house" id="i-rodape"></i></a>
+                        <a href="campeoes.html"> <i class="fas fa-trophy" id="i-rodape"></i></a>
+                        <a href="times.html"> <i class="fas fa-futbol" id="i-rodape"></i></a>
+                        <a href="estatisticas.html"> <i class="fa-solid fa-chart-line"id="i-rodape"></i></a><br><br>
+                     </div>
+                     <p class="creditos"> Feito pela equipe <span>Web Titans</span> | Todos Os Direitos Reservados!</p>
+                </div>
+            </section>
+        </footer>
+    
+        <script src="javascript/botao-acd"></script>
+    </body>
+</html>
